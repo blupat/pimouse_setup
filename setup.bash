@@ -2,7 +2,7 @@
 
 set -e
 
-/sbin/insmod /home/ubuntu/pimouse_setup/rtmouse.ko
+/sbin/insmod /home/ubuntu/RaspberryPiMouse/src/drivers/rtmouse.ko
 
 sleep 1
 chmod 666 /dev/rt*
